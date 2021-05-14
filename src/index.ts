@@ -1,8 +1,8 @@
 /*
  * @Autor: MapleLeaves
  * @Date: 2021-05-12 22:32:29
- * @LastEditors: MapleLeaves
- * @LastEditTime: 2021-05-12 23:39:03
+ * @LastEditors:  
+ * @LastEditTime: 2021-05-13 17:03:15
  */
 const data:string = '我是大鑫';
 console.error(data)
@@ -42,5 +42,5 @@ function  userFetch(){
 function tryInfo <T extends unknown[]>(...ele: T):T{
   return ele;
 }
-let [name ] = userFetch();
+let [name] = userFetch();
 console.error(name)
