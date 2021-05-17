@@ -4,7 +4,7 @@
  * @Author: MapleLeaves
  * @Date: 2021-05-14 14:02:41
  * @LastEditors:  
- * @LastEditTime: 2021-05-14 17:01:02
+ * @LastEditTime: 2021-05-17 13:51:55
  */
 
 function getLength(str:string | number):number {
